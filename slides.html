@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uneven Civic Signal Recognition — Meet the Pod</title>
+<style>
+:root{--paper:#0d141b;--teal:#22c3cf;--fog:#aeb9bf;--line:rgba(255,255,255,.12);}
+*{box-sizing:border-box;margin:0;padding:0}html,body{height:100%}
+body{background:var(--paper);color:#eef3f4;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;overflow:hidden}
+.slide{position:absolute;inset:0;display:none;align-items:center;justify-content:center;padding:8vh 9vw}
+.slide.active{display:flex}
+.slide-inner{max-width:62ch;width:100%}
+.eyebrow{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);font-weight:700;margin-bottom:18px}
+h1{font-size:clamp(30px,6vw,58px);line-height:1.05;letter-spacing:-.02em;font-weight:800;margin-bottom:22px;text-wrap:balance}
+.body{font-size:clamp(17px,2.3vw,22px);line-height:1.55;color:#dbe4e6}.body p{margin-bottom:12px}.body .muted{color:var(--fog);font-size:.9em}
+ul.themes{list-style:none;display:flex;flex-direction:column;gap:15px}ul.themes li{border-left:2px solid var(--teal);padding-left:16px}
+ul.themes .tier{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);font-weight:700;margin-bottom:3px}
+ul.themes .tt{display:block;font-weight:700;font-size:1.05em}ul.themes .td{display:block;color:var(--fog);font-size:.82em;margin-top:4px}
+ul.tension-list{list-style:none;display:flex;flex-direction:column;gap:10px;margin-top:6px}ul.tension-list li{border-left:2px solid var(--fog);padding-left:14px;font-size:.85em}
+ul.tension-list .tmeta{display:block;color:var(--fog);font-size:.82em;margin-top:2px}.body .tiny{font-size:.72em;letter-spacing:.03em;margin-top:14px}
+.slide.cover h1{font-size:clamp(38px,8vw,78px)}.slide.join .slide-inner{text-align:center}
+.nav{position:fixed;bottom:22px;left:0;right:0;display:flex;align-items:center;justify-content:center;gap:20px;z-index:5}
+.dots{display:flex;gap:9px}.dot{width:9px;height:9px;border-radius:50%;border:none;background:var(--line);cursor:pointer;padding:0}.dot.on{background:var(--teal)}
+.arrow{background:none;border:1px solid var(--line);color:#eef3f4;width:38px;height:38px;border-radius:50%;cursor:pointer;font-size:18px;line-height:1}.arrow:hover{border-color:var(--teal)}
+.brand{position:fixed;top:20px;left:26px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--fog)}.brand b{color:#eef3f4}
+</style></head>
+<body>
+<div class="brand">The <b>Upskilling Labs</b> · Meet the Pod</div>
+<section class="slide cover active" data-i="0"><div class="slide-inner"><div class="eyebrow">Meet the Pod</div><h1>Uneven Civic Signal Recognition</h1><div class="body"><p>A condition where communities struggle to collectively recognize and respond to public issues because attention is filtered through personal relevance, information uncertainty, and perceived social risk.</p></div></div></section>
+<section class="slide para" data-i="1"><div class="slide-inner"><div class="eyebrow">The Paradox</div><h1>Why this stays stuck</h1><div class="body"><p>1. The Personal Relevance Paradox — Shared problems must become personal before they become public
+The situation demands that people recognize and respond to issues beyond their immediate experience, but the same conditions that make broader recognition necessary prevent it from happening, because civic attention is organized around personal consequence, perceived risk, and individual relevance.
+
+2. The Civic Voice Paradox — Public discourse requires voices that public discourse makes risky.
+The situation demands broader participation to create a more informed public conversation, but the same conditions that make participation visible also increase the perceived social risk of participating, causing people to withdraw.
+
+3. The Information Capacity Paradox — More information creates the conditions for less understanding
+The situation demands that people become better informed to participate effectively, but the increasing complexity and volume of information makes it harder for people to determine what information is trustworthy and meaningful.</p><p class="muted"><strong>Who benefits from the status quo:</strong> TBD</p><p class="muted tiny">Sharpness self-check (pod-declared): 3/3</p></div></div></section>
+<section class="slide warrant" data-i="2"><div class="slide-inner"><div class="eyebrow">How we know</div><h1>The evidence is the warrant</h1><div class="body"><p>No client handed us this problem — the evidence did. This paradox was read off <strong>9 source extracts</strong> across <strong>2 named themes</strong>.</p><p class="muted">“Limited Community Awareness” — Limited awareness regarding the harm and needs in a community</p><p class="muted">“Local Focus Limitations” — Local focus limits who will engage (ex. DC Statehood)</p><p class="muted tiny">Full trail: data/extracts.csv in our pod repo.</p></div></div></section>
+<section class="slide themes" data-i="3"><div class="slide-inner"><div class="eyebrow">What we found</div><h1>The themes beneath it</h1><div class="body"><ul class="themes"><li><span class="tier">Theme</span><span class="tt">Participation Depends on Personal Risk</span><span class="td">People deciding whether to engage in public issues weigh participation against perceived personal consequences, including whether an issue affects their lives or exposes them to social harm. When risks feel distant or threatening, they narrow their involvement and withdraw from public action.
+</span></li><li><span class="tier">Theme</span><span class="tt">Civic Capacity Erosion</span><span class="td">Individuals trying to understand and participate in public life face declining capacity to process complex information, verify what is credible, and make time for engagement. As cognitive and practical demands increase, people become less confident in their understanding and less likely to participate.</span></li><li><span class="tier">Theme</span><span class="tt">Uneven Civic Readiness</span><span class="td">People who want to understand and participate in public life face unequal access to the knowledge, literacy, time, and confidence needed to interpret issues and engage effectively. As these capacities become unevenly distributed, civic conversations and participation become shaped by those with greater resources to make sense of complexity.
+</span></li><li><span class="tier">Pattern</span><span class="tt">Fear Filters Public Participation</span><span class="td">People who consider speaking or acting on public issues filter their engagement through fears of social consequences, especially when negative reactions can spread quickly through social networks. This fear narrows who feels able to participate and what perspectives are expressed.
+</span></li></ul></div></div></section>
+<section class="slide field" data-i="4"><div class="slide-inner"><div class="eyebrow">The Field</div><h1>Who this touches</h1><div class="body"><p class="muted"><strong>Voices we still need:</strong> The current framing is built heavily from the perspective of people who fail to recognize, interpret, or act on civic issues. To ground-truth it, you need voices from both sides of the signal pathway:
+
+People whose issues are not being recognized
+People deciding whether to engage
+People shaping what becomes visible, credible, and discussable</p></div></div></section>
+<section class="slide testing" data-i="5"><div class="slide-inner"><div class="eyebrow">What we're still testing</div><h1>This is a live inquiry</h1><div class="body"><p class="muted">We formed around evidence, not a brief — so we bring our open questions with us.</p><ul class="tension-list"><li>What could break this framing: TBD</li></ul></div></div></section>
+<section class="slide join" data-i="6"><div class="slide-inner"><div class="eyebrow">Join us</div><h1>Build with the Civics &amp; Elections: Signal Pool pod</h1><div class="body"><p>We're forming a pod around this paradox. If it pulls at you, come help us frame it — and find the problem owner who can move it.</p></div></div></section>
+<div class="nav"><button class="arrow" id="prev" aria-label="Previous">‹</button><div class="dots" id="dots"><button class="dot on" data-i="0" aria-label="Slide 1"></button><button class="dot" data-i="1" aria-label="Slide 2"></button><button class="dot" data-i="2" aria-label="Slide 3"></button><button class="dot" data-i="3" aria-label="Slide 4"></button><button class="dot" data-i="4" aria-label="Slide 5"></button><button class="dot" data-i="5" aria-label="Slide 6"></button><button class="dot" data-i="6" aria-label="Slide 7"></button></div><button class="arrow" id="next" aria-label="Next">›</button></div>
+<script>
+(function(){var slides=[].slice.call(document.querySelectorAll(".slide"));var dots=[].slice.call(document.querySelectorAll(".dot"));var i=0;function go(n){i=Math.max(0,Math.min(slides.length-1,n));slides.forEach(function(s,k){s.classList.toggle("active",k===i);});dots.forEach(function(d,k){d.classList.toggle("on",k===i);});}document.getElementById("next").onclick=function(){go(i+1);};document.getElementById("prev").onclick=function(){go(i-1);};dots.forEach(function(d){d.onclick=function(){go(+d.getAttribute("data-i"));};});document.addEventListener("keydown",function(e){if(e.key==="ArrowRight"||e.key===" ")go(i+1);else if(e.key==="ArrowLeft")go(i-1);});})();
+</script>
+</body></html>
